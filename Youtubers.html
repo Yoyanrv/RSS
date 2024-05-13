@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web - Información sobre YouTubers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #ccc;
+        }
+        .rss-icon {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .rss-icon img {
+            width: 150px; 
+            height: 150px; 
+            border-radius: 20px; 
+            margin: 0 10px; 
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column; /* Organiza los elementos en columnas */
+            gap: 20px; /* Espacio entre cada elemento */
+        }
+        .youtuber-item {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .youtuber-item:last-child {
+            margin-bottom: 0;
+        }
+        .youtuber-name {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .youtuber-description {
+            font-size: 16px;
+        }
+        .youtuber-stats {
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Información sobre YouTubers</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="noticias.html">Últimas Noticias</a>
+    </nav>
+    <div class="rss-icon">
+        <a><img src="../HTML Web Sitw/yt_1200.png" alt="RSS Feed YouTubers"></a>
+        
+    </div>
+    <div class="content">
+        <div class="youtuber-item">
+            <h2 class="youtuber-name">LMDshow</h2>
+            <p class="youtuber-description">LMDshow es un YouTuber conocido por sus vídeos de entretenimiento y comedia. Sus sketches y parodias son populares entre los espectadores, y su estilo único lo ha convertido en una figura destacada en la plataforma.</p>
+            <p class="youtuber-stats">Suscriptores: 5 millones - Vistas totales: 300 millones</p>
+        </div>
+        <div class="youtuber-item">
+            <h2 class="youtuber-name">ElRubiusOMG</h2>
+            <p class="youtuber-description">ElRubiusOMG es uno de los YouTubers más famosos del mundo. Con su estilo humorístico y sus gameplays divertidos, ha acumulado una enorme base de seguidores y se ha convertido en una de las figuras más influyentes de la plataforma.</p>
+            <p class="youtuber-stats">Suscriptores: 50 millones - Vistas totales: 5 mil millones</p>
+        </div>
+        <div class="youtuber-item">
+            <h2 class="youtuber-name">Vegeta777</h2>
+            <p class="youtuber-description">Vegeta777 es un YouTuber de juegos conocido por sus vídeos de Minecraft y otros juegos populares. Su personalidad extrovertida y sus habilidades en el juego lo han convertido en una figura querida por la comunidad de gamers.</p>
+            <p class="youtuber-stats">Suscriptores: 10 millones - Vistas totales: 1 mil millones</p>
+        </div>
+    </div>
+</body>
+</html>
