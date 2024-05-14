@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Últimas Noticias de YouTubers</title>
+    <link>https://tu-sitio-web.com</link>
+    <description>Las últimas noticias sobre tus YouTubers favoritos.</description>
+    <item>
+      <title>LMDshow lanza nueva serie de comedia en su canal</title>
+      <link>https://enlace-a-tu-noticia.com/lmdshow-lanza-nueva-serie</link>
+      <description>¡LMDshow acaba de anunciar el lanzamiento de una nueva serie de comedia en su canal! Los fanáticos están emocionados por el regreso de LMDshow a la comedia y esperan ansiosamente los nuevos episodios.</description>
+      <pubDate>Fri, 05 May 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ElRubiusOMG alcanza un hito de suscriptores en YouTube</title>
+      <link>https://enlace-a-tu-noticia.com/elrubiusomg-alcanza-hito</link>
+      <description>ElRubiusOMG ha alcanzado un increíble hito de 50 millones de suscriptores en YouTube. ¡Felicitaciones a ElRubiusOMG por este logro monumental!</description>
+      <pubDate>Tue, 03 May 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vegeta777 realiza una transmisión en vivo para sus seguidores</title>
+      <link>https://enlace-a-tu-noticia.com/vegeta777-transmision-en-vivo</link>
+      <description>Vegeta777 ha anunciado una transmisión en vivo especial para interactuar con sus seguidores. ¡Prepárate para un emocionante evento en el canal de Vegeta777!</description>
+      <pubDate>Sun, 01 May 2024 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
